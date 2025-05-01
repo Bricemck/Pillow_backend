@@ -22,10 +22,10 @@ from . import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.HomePageView.as_view(), name='home'),
-    path('pillow/user/', views.UserList.as_view(), name='user_list'),
-    path('pillow/user/<int:pk>/', views.UserDetail.as_view(), name='user_detail'),
-    path('pillow/listing/', views.ListingList.as_view(), name='listing_list'),
-    path('pillow/listing/<int:pk>/', views.ListingDetail.as_view(), name='listing_detail'),
+    path('user/', views.UserList.as_view(), name='user_list'),
+    path('user/<int:pk>/', views.UserDetail.as_view(), name='user_detail'),
+    path('listing/', views.ListingList.as_view(), name='listing_list'),
+    path('listing/<int:pk>/', views.ListingDetail.as_view(), name='listing_detail'),
 ]
 
 
