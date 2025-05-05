@@ -81,8 +81,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'pillow_backend',
-        'USER': 'bricemck',
-        'PASSWORD': 'bricemck',
+        'USER': 'khayden',
+        'PASSWORD': 'khayden',
         'HOST': 'localhost',
 	'PORT': '5432',
     }
