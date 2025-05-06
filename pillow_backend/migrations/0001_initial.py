@@ -28,7 +28,6 @@ class Migration(migrations.Migration):
                 ('title', models.CharField(max_length=255)),
                 ('price', models.DecimalField(decimal_places=2, max_digits=10)),
                 ('image', models.ImageField(blank=True, null=True, upload_to='listing_images/')),
-                ('listed_by', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='listings', to='pillow_backend.user')),
             ],
         ),
     ]
